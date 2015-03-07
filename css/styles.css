@@ -26,13 +26,23 @@ nav {
 	border-top: 2px solid #bbb;
 }
 
+nav ul {
+	margin: 0;
+}
+
 nav ul li{
 	box-sizing: border-box;
-	padding-top: 20px;
 	display: inline-block;
 	width: 30%;
 	text-align: center;
 	font-size: 1.4em;
+}
+nav ul li a {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	padding-top: 35px;
 }
 
 /*MENUS STYLING*/
