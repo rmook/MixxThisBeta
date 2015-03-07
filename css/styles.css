@@ -12,6 +12,7 @@ li {
 
 body {
 	font-size: 20px;
+	color: #353634;
 }
 
 /*Font Family*/
@@ -27,7 +28,7 @@ nav {
 	z-index: 10000;
 	width: 100%;
 	height: 100px;
-	background-color: #ddd;
+	background-color: #b8b6b1;
 	border-top: 2px solid #bbb;
 }
 
@@ -75,4 +76,12 @@ nav ul li a {
 	width: 100%;
 	height: 100%;
 	padding-top: 40px;
+}
+
+/*ORDER STYLING*/
+
+.order {
+	display: none;
+	height: 100%;
+	width: 100%;
 }
