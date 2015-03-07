@@ -1,6 +1,6 @@
 /*********** Remove default styling ***********/
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none; }
 
 ul {
@@ -12,7 +12,7 @@ li {
 
 body {
 	font-size: 20px;
-	color: #353634;
+	color: #fff;
 	background-color: 353634;
 }
 
@@ -91,18 +91,19 @@ nav ul li a {
 /*MENUS STYLING*/
 
 .menu {
+	padding-top: 30px;
 	display: none;
 	width: 100%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
 }
 .menu li {
 	float: left;
 	box-sizing: border-box;
 	display: inline-block;
-	width: 50%;
-	height: 100px;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 160px;
 	text-align: center;
 }
 .menu li a{
