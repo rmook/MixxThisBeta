@@ -13,6 +13,7 @@ li {
 body {
 	font-size: 20px;
 	color: #353634;
+	background-color: 353634;
 }
 
 /*Font Family*/
@@ -40,6 +41,7 @@ nav ul {
 nav ul li{
 	box-sizing: border-box;
 	display: inline-block;
+	height: 100px;
 	width: 33.3%;
 	text-align: center;
 	font-size: 24px;
@@ -51,6 +53,40 @@ nav ul li a {
 	height: 100%;
 	padding-top: 35px;
 }
+
+.beericon {
+		background: url('../img/icons/beer-icon-mt.png') no-repeat;
+}
+
+.wellsIcon{
+	background: url('../img/icons/wells-icon-mt.png') no-repeat;
+}
+
+.socialIcon{
+	background: url('../img/icons/social-icon-mt.png') no-repeat;
+}
+
+.bathroomIcon{
+	background: url('../img/icons/bathroom-icon-mt.png') no-repeat;
+}
+
+.foodDrinkIcon{
+	background: url('../img/icons/fooddrink-icon-mt.png') no-repeat;
+}
+
+.transportationIcon{
+	background: url('../img/icons/transportation-icon-mt.png') no-repeat;
+}
+
+.randomIcon{
+	background: url('../img/icons/randomthoughts-icon-mt.png') no-repeat;
+}
+
+.icon {
+	background-size: contain;
+	background-position: center;
+}
+
 
 /*MENUS STYLING*/
 
@@ -67,7 +103,6 @@ nav ul li a {
 	display: inline-block;
 	width: 50%;
 	height: 100px;
-	border: 2px solid #bbb;
 	text-align: center;
 }
 .menu li a{
@@ -77,6 +112,8 @@ nav ul li a {
 	height: 100%;
 	padding-top: 40px;
 }
+
+
 
 /*ORDER STYLING*/
 
