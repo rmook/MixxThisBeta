@@ -13,8 +13,7 @@ var menuSocial = $(".social")
 $("#beer").click(function() {
 	menuWells.hide();
 	menuSocial.hide();
-	$("#wells").css("background-color",navColor);
-	$("#social").css("background-color", navColor);
+	$("#wells, #social").css("background-color",navColor);
 	$("#beer").css("background-color",selectedColor);
 	menuBeer.slideToggle("slow")
 });
@@ -22,8 +21,7 @@ $("#beer").click(function() {
 $("#wells").click(function() {
 	menuBeer.hide();
 	menuSocial.hide();
-	$("#beer").css("background-color",navColor);
-	$("#social").css("background-color", navColor);
+	$("#beer, #social").css("background-color",navColor);
 	$("#wells").css("background-color",selectedColor);
 	menuWells.slideToggle("slow")
 });
@@ -31,8 +29,7 @@ $("#wells").click(function() {
 $("#social").click(function() {
 	menuBeer.hide();
 	menuWells.hide();
-	$("#beer").css("background-color",navColor);
-	$("#wells").css("background-color",navColor);
+	$("#beer, #wells").css("background-color",navColor);
 	$("#social").css("background-color",selectedColor);
 	menuSocial.slideToggle("slow")
 });
