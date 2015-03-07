@@ -54,6 +54,7 @@ nav ul li a {
 /*MENUS STYLING*/
 
 .menu {
+	display: none;
 	width: 100%;
 	height: auto;
 	margin-left: auto;
