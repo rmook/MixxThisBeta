@@ -6,13 +6,18 @@ a {
 ul {
 	padding-left: 0;
 }
+
 li {
   list-style: none; }
+
+body {
+	font-size: 20px;
+}
 
 /*Font Family*/
 
 body {
-	font-family: 'Lobster', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 /*NAV STYLING*/
 
@@ -28,14 +33,15 @@ nav {
 
 nav ul {
 	margin: 0;
+	font-size: 0;
 }
 
 nav ul li{
 	box-sizing: border-box;
 	display: inline-block;
-	width: 30%;
+	width: 33.3%;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 24px;
 }
 nav ul li a {
 	display: block;
@@ -48,7 +54,6 @@ nav ul li a {
 /*MENUS STYLING*/
 
 .menu {
-	display: none;
 	width: 100%;
 	height: auto;
 	margin-left: auto;
@@ -64,7 +69,7 @@ nav ul li a {
 	text-align: center;
 }
 .menu li a{
-	font-size: 1.4em;
+	font-size: 1.2em;
 	display: block;
 	width: 100%;
 	height: 100%;
