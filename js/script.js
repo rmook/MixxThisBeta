@@ -39,10 +39,28 @@ $("#social").click(function() {
 // 	Clicking a menu item displays the text of that menu item full-size.
 // 	
 
-$(".menu a").click(function() {
-	var link = $(this).text();
+var $overlay = $('.overlay');
+var $orderImage = $("<img>");
+
+$overlay.append($orderImage);
+
+$(".order").click(function(event) {
+	event.preventDefault();
+	var imageLocation = $(this).attr("id");
+	var baseURL = "img/orders/";
+	var addy = baseURL.concat(imageLocation);
+
+	$orderImage.attr("src", addy);
+
+	$overlay.show();
 
 });
+
+$overlay.click(function() {
+	$overlay.hide();
+});
+
+
 
 // Problem:
 // 	When the device is shaken, nothing happens.
